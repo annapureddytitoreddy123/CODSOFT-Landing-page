@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blue;
+    height:80px;
+    width: 100%;
+    
+}
+label.logo {
+color: white;
+font-size: 35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbar{
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display:none;
+
+}
+.setion1{
+    background-image: url('restarant.jpg');
+    height:500px;
+    width: 100%;
+    position:relative;
+    
+}
+.setion1 .sec2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color:white;
+}
+.img{
+    height: 200px;
+    display:inline-block;
+    padding:30px 70px;
+    margin-left: 100px;
+}
+
+.photo{
+    margin-left:100px;
+}
+.img1{
+    height:200px;
+
+}
+.img2{
+    height:200px;
+    padding-left: 100px;
+}
+.matter{
+    margin-left:100px;
+}
+.fff{
+    padding-left: 100px;
+}
+.yash{
+    background-color: rgb(244, 241, 236);
+    border-radius: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-color: black;
+
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  #container {
+    border-radius: 5px;
+    background-color:rgb(244, 241, 236);
+    padding: 20px;
+  }
+  .in{
+    display:inline-block;
+  }
+  .matter{
+    padding-left:100px;
+  }
+  input[type=email],date {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-color: black;
+  }
+  .date{
+    padding-top: 10px;
+  }
+  input[type="date"]{
+    font-size:25px;
+    width:200px;
+    text-align: center;
+    border-color: black;
+  }
+  #cont{
+    font-size: 25px;
+    padding-left: 50px;
+    background-color: rgb(244, 241, 236)
+  }
+  table tr td p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    
+  }
+  
+  table{
+    width: 100%;
+  }
+  td{
+    width: 50%;
+  }
+  .menu{
+    height: 1000px;
+    width: 80%;
+
+  }
